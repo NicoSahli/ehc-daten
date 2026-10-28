@@ -75,9 +75,10 @@ def spielbrett(sp, jetzt):
     return links + rechts, offen[:4]
 
 
-def render(spiele, tabelle, conf, jetzt=None):
+def render(spiele, tabelle, conf, jetzt=None, status=None):
     """spiele/tabelle: Inhalt von spiele.json / tabelle.json; conf: sihf.json. Gibt {name: html} zurueck."""
     jetzt = jetzt or datetime.now(TZ).replace(tzinfo=None)
+    status = status or {}
     sp = sorted(spiele.get('spiele', []), key=lambda g: g['start'])
     brett, kommende = spielbrett(sp, jetzt)
     n = ''.join(spiel_zeile(g, jetzt) for g in kommende)
@@ -97,9 +98,9 @@ def render(spiele, tabelle, conf, jetzt=None):
         'brett': brett,
         'naechste': '<ol class="spiele">%s</ol>' % n if n else '<p>Der Spielplan der nächsten Saison folgt.</p>',
         'spielplan': out,
-        'spielplan-quelle': 'Quelle: Swiss Icehockey. Zuletzt abgeglichen: %s. Massgebend ist der <a href="%s" target="_blank" rel="noopener noreferrer">offizielle Spielplan</a>.' % (
-            e(zeit_text(spiele.get('aktualisiert', ''))), e(conf['spielplan_url'])),
+        'spielplan-quelle': 'Quelle: Swiss Icehockey. Zuletzt geprüft: %s. Massgebend ist der <a href="%s" target="_blank" rel="noopener noreferrer">offizielle Spielplan</a>.' % (
+            e(zeit_text(status.get('spiele_geprueft') or spiele.get('aktualisiert', ''))), e(conf['spielplan_url'])),
         'tabelle': '<table class="tabelle"><thead><tr>%s</tr></thead><tbody>%s</tbody></table>' % (kopf, zeilen),
-        'tabelle-quelle': 'Quelle: Swiss Icehockey. Zuletzt abgeglichen: %s. Massgebend ist die <a href="%s" target="_blank" rel="noopener noreferrer">offizielle Tabelle</a>.' % (
-            e(zeit_text(tabelle.get('aktualisiert', ''))), e(conf['tabelle_url'])),
+        'tabelle-quelle': 'Quelle: Swiss Icehockey. Zuletzt geprüft: %s. Massgebend ist die <a href="%s" target="_blank" rel="noopener noreferrer">offizielle Tabelle</a>.' % (
+            e(zeit_text(status.get('tabelle_geprueft') or tabelle.get('aktualisiert', ''))), e(conf['tabelle_url'])),
     }

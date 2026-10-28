@@ -6,6 +6,8 @@ Aufruf:  python3 scripts/fetch_games.py            (holt online)
          python3 scripts/fetch_games.py --ics datei.ics --html seite.html   (offline/Test)
 """
 import argparse, html, json, os, re, sys, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import status
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -105,6 +107,7 @@ def main():
         games = [extra.pop(g['id'], g) for g in games] + list(extra.values())
 
     games.sort(key=lambda g: g['start'])
+    status.stempel('spiele_geprueft')
     data = {'aktualisiert': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), 'spiele': games}
     new = json.dumps(data, ensure_ascii=False, indent=1)
     # nur schreiben, wenn sich inhaltlich etwas geaendert hat (vermeidet unnoetige Neu-Veroeffentlichungen)

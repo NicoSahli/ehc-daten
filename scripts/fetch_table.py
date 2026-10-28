@@ -3,6 +3,8 @@
 Nur Python-Standardbibliothek. Bei Fehlern bleibt die alte Datei unveraendert.
 Aufruf: python3 scripts/fetch_table.py [--html seite.html]"""
 import argparse, html, json, os, re, sys, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import status
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -65,6 +67,8 @@ def main():
     except Exception as e:
         print('FEHLER Tabelle:', e, file=sys.stderr)
         sys.exit(1)
+    if not a.out:
+        status.stempel('tabelle_geprueft')
     prev = json.load(open(out, encoding='utf-8')) if os.path.exists(out) else {}
     if prev.get('zeilen') == rows:
         print('Keine Aenderung'); return
