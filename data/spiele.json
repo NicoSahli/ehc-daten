@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-10-26T16:35:34Z",
+ "aktualisiert": "2026-10-28T13:26:58Z",
  "spiele": [
   {
    "id": "9257653",
@@ -7,7 +7,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "HC Val-de-Ruz",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": 9,
    "tore_gast": 1
   },
@@ -17,7 +17,7 @@
    "heim": "HC Star Chaux-de-Fonds",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire des Mélèzes, 2300 La Chaux-de-Fonds NE",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": 4,
    "tore_gast": 7
   },
@@ -27,7 +27,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "CP Fleurier",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": 7,
    "tore_gast": 1
   },
@@ -37,7 +37,7 @@
    "heim": "HC Le Locle",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire du Communal, 2400 Le Locle NE",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -47,7 +47,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "HC Ponts-de-Martel",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -57,7 +57,7 @@
    "heim": "HC Vallorbe",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire du Frézillon, 1337 Vallorbe VD",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -67,7 +67,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "Neuchâtel Young Sprinters",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -77,7 +77,7 @@
    "heim": "Neuchâtel Young Sprinters",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire secondaire, 2000 Neuchâtel NE",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -87,7 +87,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "HC Vallorbe",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -97,7 +97,7 @@
    "heim": "HC Ponts-de-Martel",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire du Bugnon, 2316 Les Ponts-de-Martel NE",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -107,7 +107,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "HC Le Locle",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -117,7 +117,7 @@
    "heim": "CP Fleurier",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire de Fleurier, 2114 Fleurier NE",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -127,7 +127,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "HC Star Chaux-de-Fonds",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -137,7 +137,7 @@
    "heim": "HC Val-de-Ruz",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire secondaire, 2000 Neuchâtel NE",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -147,7 +147,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "HC Val-de-Ruz",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -157,7 +157,7 @@
    "heim": "HC Star Chaux-de-Fonds",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire des Mélèzes, 2300 La Chaux-de-Fonds NE",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -167,7 +167,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "CP Fleurier",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -177,7 +177,7 @@
    "heim": "HC Le Locle",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire du Communal, 2400 Le Locle NE",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -187,7 +187,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "HC Ponts-de-Martel",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -197,7 +197,7 @@
    "heim": "HC Vallorbe",
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire du Frézillon, 1337 Vallorbe VD",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   },
@@ -207,7 +207,7 @@
    "heim": "EHC Bösingen-SenSee",
    "gast": "Neuchâtel Young Sprinters",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
-   "wettbewerb": "Regular Season (2027)",
+   "wettbewerb": "Regular Season",
    "tore_heim": null,
    "tore_gast": null
   }
