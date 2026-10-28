@@ -1,0 +1,39 @@
+name: Daten aktualisieren
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # alle 2 Stunden
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: daten
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.11" }
+      - name: Spielplan und Resultate holen
+        run: python3 scripts/fetch_games.py
+      - name: Tabelle holen
+        if: always()
+        run: python3 scripts/fetch_table.py
+      - name: Anzeige-Dateien erzeugen
+        if: always()
+        run: python3 scripts/make_fragments.py
+      - name: Aenderungen speichern
+        if: always()
+        run: |
+          git config user.name "Daten-Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data fragmente
+          git diff --cached --quiet || (git commit -m "Daten aktualisiert" && git push)
+      - name: Zeitplan aktiv halten
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/daten.yml/enable"
