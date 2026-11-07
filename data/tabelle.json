@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-07T18:49:06Z",
+ "aktualisiert": "2026-11-07T20:43:36Z",
  "zeilen": [
   {
    "rang": "1",
@@ -20,8 +20,25 @@
   },
   {
    "rang": "2",
+   "team": "Neuchâtel Young Sprinters*",
+   "sp": "+1",
+   "pkt": "5",
+   "ppsp": "11",
+   "w": "2.200",
+   "otw": "3",
+   "sow": "1",
+   "sol": "0",
+   "otl": "0",
+   "l": "0",
+   "gf": "1",
+   "ga": "31",
+   "diff": "17",
+   "serie": "14"
+  },
+  {
+   "rang": "3",
    "team": "EHC Bösingen-SenSee",
-   "sp": "",
+   "sp": "-1",
    "pkt": "4",
    "ppsp": "10",
    "w": "2.500",
@@ -34,23 +51,6 @@
    "ga": "26",
    "diff": "10",
    "serie": "16"
-  },
-  {
-   "rang": "3",
-   "team": "Neuchâtel Young Sprinters",
-   "sp": "",
-   "pkt": "4",
-   "ppsp": "8",
-   "w": "2.000",
-   "otw": "2",
-   "sow": "1",
-   "sol": "0",
-   "otl": "0",
-   "l": "0",
-   "gf": "1",
-   "ga": "22",
-   "diff": "17",
-   "serie": "5"
   },
   {
    "rang": "4",
@@ -71,8 +71,8 @@
   },
   {
    "rang": "5",
-   "team": "HC Star Chaux-de-Fonds*",
-   "sp": "+3",
+   "team": "HC Star Chaux-de-Fonds",
+   "sp": "",
    "pkt": "5",
    "ppsp": "6",
    "w": "1.200",
@@ -82,14 +82,14 @@
    "otl": "0",
    "l": "1",
    "gf": "2",
-   "ga": "18",
-   "diff": "21",
-   "serie": "-3"
+   "ga": "22",
+   "diff": "22",
+   "serie": "0"
   },
   {
    "rang": "6",
    "team": "HC Ponts-de-Martel",
-   "sp": "+1",
+   "sp": "",
    "pkt": "4",
    "ppsp": "3",
    "w": "0.750",
@@ -105,25 +105,8 @@
   },
   {
    "rang": "7",
-   "team": "CP Fleurier",
-   "sp": "-2",
-   "pkt": "4",
-   "ppsp": "3",
-   "w": "0.750",
-   "otw": "1",
-   "sow": "0",
-   "sol": "0",
-   "otl": "0",
-   "l": "0",
-   "gf": "3",
-   "ga": "9",
-   "diff": "18",
-   "serie": "-9"
-  },
-  {
-   "rang": "8",
-   "team": "HC Val-de-Ruz*",
-   "sp": "-2",
+   "team": "CP Fleurier*",
+   "sp": "",
    "pkt": "5",
    "ppsp": "3",
    "w": "0.600",
@@ -133,9 +116,26 @@
    "otl": "0",
    "l": "0",
    "gf": "4",
-   "ga": "10",
-   "diff": "22",
-   "serie": "-12"
+   "ga": "9",
+   "diff": "27",
+   "serie": "-18"
+  },
+  {
+   "rang": "8",
+   "team": "HC Val-de-Ruz",
+   "sp": "",
+   "pkt": "5",
+   "ppsp": "3",
+   "w": "0.600",
+   "otw": "1",
+   "sow": "0",
+   "sol": "0",
+   "otl": "0",
+   "l": "0",
+   "gf": "4",
+   "ga": "11",
+   "diff": "26",
+   "serie": "-15"
   }
  ]
 }
