@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-11T01:08:25Z",
+ "aktualisiert": "2026-11-11T22:56:28Z",
  "spiele": [
   {
    "id": "9257653",
@@ -58,8 +58,8 @@
    "gast": "EHC Bösingen-SenSee",
    "ort": "Patinoire du Frézillon, 1337 Vallorbe VD",
    "wettbewerb": "Regular Season",
-   "tore_heim": null,
-   "tore_gast": null
+   "tore_heim": 5,
+   "tore_gast": 8
   },
   {
    "id": "9257677",
