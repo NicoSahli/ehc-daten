@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-21T16:52:27Z",
+ "aktualisiert": "2026-11-21T18:54:00Z",
  "zeilen": [
   {
    "rang": "1",
@@ -20,41 +20,41 @@
   },
   {
    "rang": "2",
-   "team": "EHC Bösingen-SenSee",
-   "sp": "",
-   "pkt": "7",
-   "ppsp": "17",
-   "w": "2.429",
+   "team": "Neuchâtel Young Sprinters*",
+   "sp": "+1",
+   "pkt": "8",
+   "ppsp": "19",
+   "w": "2.375",
    "otw": "5",
-   "sow": "0",
-   "sol": "0",
-   "otl": "0",
-   "l": "2",
-   "gf": "0",
-   "ga": "48",
-   "diff": "24",
-   "serie": "24"
-  },
-  {
-   "rang": "3",
-   "team": "Neuchâtel Young Sprinters",
-   "sp": "",
-   "pkt": "7",
-   "ppsp": "16",
-   "w": "2.286",
-   "otw": "4",
    "sow": "2",
    "sol": "0",
    "otl": "0",
    "l": "0",
    "gf": "1",
-   "ga": "45",
+   "ga": "46",
    "diff": "27",
-   "serie": "18"
+   "serie": "19"
+  },
+  {
+   "rang": "3",
+   "team": "EHC Bösingen-SenSee*",
+   "sp": "-1",
+   "pkt": "8",
+   "ppsp": "17",
+   "w": "2.125",
+   "otw": "5",
+   "sow": "0",
+   "sol": "0",
+   "otl": "0",
+   "l": "2",
+   "gf": "1",
+   "ga": "48",
+   "diff": "25",
+   "serie": "23"
   },
   {
    "rang": "4",
-   "team": "HC Le Locle*",
+   "team": "HC Le Locle",
    "sp": "",
    "pkt": "8",
    "ppsp": "16",
@@ -65,9 +65,9 @@
    "otl": "1",
    "l": "1",
    "gf": "1",
-   "ga": "43",
+   "ga": "48",
    "diff": "28",
-   "serie": "15"
+   "serie": "20"
   },
   {
    "rang": "5",
@@ -105,7 +105,7 @@
   },
   {
    "rang": "7",
-   "team": "CP Fleurier*",
+   "team": "CP Fleurier",
    "sp": "",
    "pkt": "8",
    "ppsp": "3",
@@ -117,8 +117,8 @@
    "l": "0",
    "gf": "7",
    "ga": "14",
-   "diff": "45",
-   "serie": "-31"
+   "diff": "50",
+   "serie": "-36"
   },
   {
    "rang": "8",
