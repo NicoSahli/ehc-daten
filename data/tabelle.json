@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-21T18:54:00Z",
+ "aktualisiert": "2026-11-21T20:47:56Z",
  "zeilen": [
   {
    "rang": "1",
@@ -20,37 +20,37 @@
   },
   {
    "rang": "2",
-   "team": "Neuchâtel Young Sprinters*",
-   "sp": "+1",
-   "pkt": "8",
-   "ppsp": "19",
-   "w": "2.375",
-   "otw": "5",
-   "sow": "2",
-   "sol": "0",
-   "otl": "0",
-   "l": "0",
-   "gf": "1",
-   "ga": "46",
-   "diff": "27",
-   "serie": "19"
-  },
-  {
-   "rang": "3",
    "team": "EHC Bösingen-SenSee*",
-   "sp": "-1",
+   "sp": "",
    "pkt": "8",
-   "ppsp": "17",
-   "w": "2.125",
+   "ppsp": "18",
+   "w": "2.250",
    "otw": "5",
    "sow": "0",
    "sol": "0",
    "otl": "0",
    "l": "2",
+   "gf": "0",
+   "ga": "51",
+   "diff": "27",
+   "serie": "24"
+  },
+  {
+   "rang": "3",
+   "team": "Neuchâtel Young Sprinters*",
+   "sp": "",
+   "pkt": "8",
+   "ppsp": "17",
+   "w": "2.125",
+   "otw": "4",
+   "sow": "2",
+   "sol": "0",
+   "otl": "0",
+   "l": "0",
    "gf": "1",
    "ga": "48",
-   "diff": "25",
-   "serie": "23"
+   "diff": "30",
+   "serie": "18"
   },
   {
    "rang": "4",
