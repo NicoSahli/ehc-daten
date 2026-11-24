@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-21T22:47:48Z",
+ "aktualisiert": "2026-11-24T23:02:35Z",
  "spiele": [
   {
    "id": "9257653",
@@ -88,8 +88,8 @@
    "gast": "HC Vallorbe",
    "ort": "Regional-Eisbahn Sense-See AG, 3186 Düdingen FR",
    "wettbewerb": "Regular Season",
-   "tore_heim": null,
-   "tore_gast": null
+   "tore_heim": 5,
+   "tore_gast": 2
   },
   {
    "id": "9257689",
