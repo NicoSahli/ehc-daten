@@ -1,8 +1,25 @@
 {
- "aktualisiert": "2026-11-24T23:02:36Z",
+ "aktualisiert": "2026-11-28T02:39:22Z",
  "zeilen": [
   {
    "rang": "1",
+   "team": "EHC Bösingen-SenSee",
+   "sp": "10",
+   "pkt": "24",
+   "ppsp": "2.400",
+   "w": "7",
+   "otw": "0",
+   "sow": "0",
+   "sol": "1",
+   "otl": "2",
+   "l": "0",
+   "gf": "63",
+   "ga": "32",
+   "diff": "31",
+   "serie": ""
+  },
+  {
+   "rang": "2",
    "team": "Neuchâtel Young Sprinters",
    "sp": "9",
    "pkt": "21",
@@ -16,23 +33,6 @@
    "gf": "54",
    "ga": "33",
    "diff": "21",
-   "serie": ""
-  },
-  {
-   "rang": "2",
-   "team": "EHC Bösingen-SenSee",
-   "sp": "9",
-   "pkt": "21",
-   "ppsp": "2.333",
-   "w": "6",
-   "otw": "0",
-   "sow": "0",
-   "sol": "1",
-   "otl": "2",
-   "l": "0",
-   "gf": "56",
-   "ga": "30",
-   "diff": "26",
    "serie": ""
   },
   {
@@ -89,18 +89,18 @@
   {
    "rang": "6",
    "team": "HC Ponts-de-Martel",
-   "sp": "9",
+   "sp": "10",
    "pkt": "6",
-   "ppsp": "0.667",
+   "ppsp": "0.600",
    "w": "2",
    "otw": "0",
    "sow": "0",
    "sol": "0",
    "otl": "0",
-   "l": "7",
-   "gf": "23",
-   "ga": "50",
-   "diff": "-27",
+   "l": "8",
+   "gf": "25",
+   "ga": "57",
+   "diff": "-32",
    "serie": ""
   },
   {
